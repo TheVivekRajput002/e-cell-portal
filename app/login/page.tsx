@@ -67,12 +67,9 @@ export default function LoginPage() {
 
                     {/* Password Input */}
                     <div className="space-y-1.5">
-                        <div className="flex items-center justify-between">
-                            <label htmlFor="password" className="block text-xs font-semibold text-slate-700">
-                                Access Password
-                            </label>
-                            <span className="text-[10px] text-slate-400">Default: farmkaro</span>
-                        </div>
+                        <label htmlFor="password" className="block text-xs font-semibold text-slate-700">
+                            Access Password
+                        </label>
                         <div className="relative">
                             <Lock size={15} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
                             <input
